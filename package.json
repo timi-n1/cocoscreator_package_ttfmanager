@@ -1,6 +1,6 @@
 {
     "name": "ttf-manager",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TTF字体管理",
     "author": "Cocos Creator",
     "main": "main.js",
@@ -10,9 +10,7 @@
         }
     },
     "dependencies": {
-        "async": "^2.6.1",
         "excel": "^1.0.0",
-        "fs-extra": "^5.0.0",
         "glob": "^7.1.3"
     }
 }
