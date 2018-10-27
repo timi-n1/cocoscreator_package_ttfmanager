@@ -44,10 +44,12 @@ class Worker{
                 return;
             }
             if( extNormalList.includes(ext) ){
+                Editor.log(file);
                 this.getChar(file);
                 setImmediate(cb);
             }
             else if( extExcelList.includes(ext) ){
+                Editor.log(file);
                 this.getCharExcel(file, ()=>{
                     setImmediate(cb);
                 });
