@@ -1,6 +1,6 @@
 {
     "name": "ttf-manager",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "TTF字体管理",
     "author": "Cocos Creator",
     "main": "main.js",

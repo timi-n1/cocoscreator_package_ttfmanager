@@ -95,4 +95,6 @@ class Worker{
 
 }
 
-new Worker();
+module.exports = function(){
+    new Worker();
+};

@@ -11,7 +11,7 @@ module.exports = {
 
     messages: {
         'getall'() {
-            require('./work.js');
+            require('./work.js')();
         }
     },
 };
